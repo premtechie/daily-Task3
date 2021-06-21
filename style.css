@@ -1,0 +1,335 @@
+
+.container{
+    width: 75%;
+    margin-inline: auto;
+}
+.title{
+    height: 64px;
+    left: 236px;
+    top: 49px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    color: #000000;
+}
+.textComponent{
+    margin-top: 15px;
+    display: flex;
+    align-items: start;
+}
+.text {
+    width: 70%;
+    height: 51px;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4F4F4F;
+}
+.dots{
+    width: 13px;
+    height: 8px;
+    margin: 3px 8px;
+}
+.recipe {
+    width: 100%;
+    margin: 40px 0;
+}
+.ingredientsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.ingredient-title{
+    height: 32px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+.ingredients {
+    width: 60%;
+}
+.submenu-title{
+    height: 24px;
+    font-family: Playfair Display;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+    margin: 30px 0;
+}
+.check-item {
+    display: flex;
+    align-items: flex-start;
+}
+.check{
+    width: 21px;
+    height: 21px;
+    border-radius: 4px;
+}
+.check-list {
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #333333;
+    margin-left: 15px;
+}
+.detailsCard{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+.dining-detail{
+    display: flex;
+    margin:15px 10px;
+}
+
+.dine {
+    width: 30px;
+    height: 30px;
+}
+.text2{
+    height: 17px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F2994A;
+}
+.dining-texts {
+    margin-left: 10px;
+}
+
+.timing-detail{
+    display: flex;
+    align-items:flex-start;
+    margin: 15px 10px;
+}
+.time-text1{
+    height: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+.time-texts{
+    margin-left: 10px;
+}
+.time-text2{
+    height: 17px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+.time {
+    width: 30px;
+    height: 30px;
+}
+
+.instruction-container{
+    width: 60%;
+    padding: 20px 0 50px;
+}
+.instruction-title{
+    height: 32px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    margin: 20px 0;
+}
+.point-wrapper {
+    display: flex;
+    margin: 10px 0;
+}
+.number{
+    width: 36px;
+    height: 36px;
+    background: #F2994A;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.points{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-left:15px;
+    width: 90%;
+}
+.copyright{
+    height: 17px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    text-align: center;
+}
+
+
+@media(max-width:550px){
+ 
+.container{
+    width: 95%;
+    margin-inline: auto;
+}
+.title{
+    height: 29px;
+    font-size: 24px;
+    line-height: 32px;
+}
+.textComponent{
+    margin-top: 15px;
+    display: flex;
+    align-items: start;
+}
+.text {
+    width: 90%;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.ingredientsContainer {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.ingredient-title{
+    height: 24px;
+    font-size: 18px;
+    line-height: 24px;
+}
+.ingredients {
+    width: 100%;
+}
+.submenu-title{
+    height: 21px;
+    font-size: 16px;
+    line-height: 21px;
+}
+.check-item {
+    display: flex;
+    align-items: flex-start;
+}
+.check-list {
+    font-size: 14px;
+    margin-left: 10px;
+}
+.detailsCard{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.dining-detail{
+    display: flex;
+    margin:15px 10px;
+}
+
+.dine {
+    width: 30px;
+    height: 30px;
+}
+.text2{
+    height: 17px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F2994A;
+}
+.dining-texts {
+    margin-left: 10px;
+}
+
+.timing-detail{
+    display: flex;
+    align-items:flex-start;
+    margin: 15px 10px;
+}
+.time-text1{
+    height: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+}
+.time-texts{
+    margin-left: 10px;
+}
+.time-text2{
+    height: 17px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+.time {
+    width: 30px;
+    height: 30px;
+}
+
+.instruction-container{
+    width: 100%;
+    padding: 20px 0 50px;
+}
+.instruction-title{
+    font-size: 24px;
+    line-height: 32px;
+}
+.copyright{
+    height: 17px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    text-align: center;
+}
+   
+}
